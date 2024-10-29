@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "B5819W-TP")(type "Legacy")(uri "${KIPRJMOD}/Models/B5819W-TP.lib")(options "")(descr ""))
+  (lib (name "CJ2302")(type "Legacy")(uri "${KIPRJMOD}/Models/CJ2302.lib")(options "")(descr ""))
+  (lib (name "ULN2803-Mosfet-S2-Mini-rescue")(type "KiCad")(uri "${KIPRJMOD}/ULN2803-Mosfet-S2-Mini-rescue.kicad_sym")(options "")(descr ""))
+)
