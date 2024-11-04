@@ -6,4 +6,6 @@ Tre pomeriggi di open lab per realizzare insieme delle decorazioni a LED utilizz
 
 ![Retro](ATtiny3/Immagini/retro.png)
 
-ATtiny3/Immagini/Schema.pdf
+![Schema](<ATtiny3/Immagini/Vista 3D.png>)
+
+![Vista 3D](<ATtiny3/Immagini/Vista 3D.png>)
