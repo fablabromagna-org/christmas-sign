@@ -21,8 +21,12 @@ Gli unici componenti extended sono:
 - il regolatore di tensione 3.3v
 - la CPU
 
+La prima produzione di 10 schede per un totale di 434 componenti montati in SMD è costata 37 euro comprese VAT e shipping. (avevo un buono sconto di 8,26 euro)
 
-Il costo totale di 10 schede è stato di 37 euro comprese VAT e shipping. (avevo un buono sconto di 8,26 euro)
+A queste spese bisogna aggiungere le 10 CPU comprate su Mouser a 9,39 che andranno saldate a mano.
+
+JLCPCB infatti non ha a catalogo queste CPU (ATtiny1624)
+
 
 ![Alt text](ATtiny3/Immagini/BOM.png)
 
