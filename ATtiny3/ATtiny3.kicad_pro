@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.2,
+          "height": 6.4,
+          "width": 6.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -171,7 +177,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1,
+        0.3
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +208,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -527,13 +542,43 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SKU",
+          "name": "SKU",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Descrizione",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
-      "name": "Grouped By Value",
+      "group_symbols": false,
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Riferimento"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -580,36 +625,32 @@
       "Principale"
     ],
     [
-      "0a917dff-252f-4c77-8363-41b4b8c98c08",
-      "Mosfet Driver 1"
+      "49d16a40-5213-4dfc-8ad1-c9883923d9b4",
+      "Driver1"
     ],
     [
-      "0472dbe5-dbe6-4aef-beed-d41fac9297dc",
-      "Mosfet Driver 2"
+      "1f1093a9-0f81-45ed-bc24-b5c3f43458c7",
+      "Driver2"
     ],
     [
-      "ac956458-2664-4863-ae24-3fbfd572fe0a",
-      "Mosfet Driver 3"
+      "464904bc-fa56-4e79-a59c-5ce30593ac12",
+      "Driver3"
     ],
     [
-      "acd324eb-8323-4101-84c2-4d6753ebbeb6",
-      "Mosfet Driver 4"
+      "28cf6838-6b8a-46e6-b5e7-f06e42ba4feb",
+      "Driver4"
     ],
     [
-      "668e5775-29cc-4b28-b56a-ba4234143a60",
-      "Mosfet Driver 5"
+      "fca6b810-71df-4f65-8dd3-69cddda9ad03",
+      "Driver5"
     ],
     [
-      "6fcf5219-a111-4ec9-b2ed-dfb7ad88d2d3",
-      "Mosfet Driver 6"
+      "4280c9c2-efe3-4963-9fc9-06dce1a2b120",
+      "Driver6"
     ],
     [
-      "21686cb9-0647-4c1c-a52b-edfe01507842",
-      "Mosfet Driver 7"
-    ],
-    [
-      "0bf8f175-79e6-40d1-8199-946cdf0fe375",
-      "Mosfet Driver 8"
+      "4f04a3c3-f3f6-4b3b-8f49-a9b0c9d48326",
+      "Driver7"
     ]
   ],
   "text_variables": {}
