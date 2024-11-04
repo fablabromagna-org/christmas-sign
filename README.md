@@ -44,7 +44,7 @@ Vista 3D
 ![Vista 3D](<ATtiny3/Immagini/Vista 3D.png>)
 
 Pdf dello schema
-![Schema](<ATtiny3/Immagini/Schema.pdf>)
+![Pdf dello schema](<ATtiny3/Immagini/Schema.pdf>)
 
 
 
