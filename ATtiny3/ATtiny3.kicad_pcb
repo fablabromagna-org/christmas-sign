@@ -1636,7 +1636,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "*LED-0805*")
 		(path "/4f04a3c3-f3f6-4b3b-8f49-a9b0c9d48326/3da5316a-78db-4ecb-80ad-8e71b0c65d78")
 		(sheetname "Driver7")
 		(sheetfile "MosfetDriver.kicad_sch")
@@ -2613,7 +2612,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3672,7 +3671,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4026,7 +4025,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "*LED-0805*")
 		(path "/fca6b810-71df-4f65-8dd3-69cddda9ad03/3da5316a-78db-4ecb-80ad-8e71b0c65d78")
 		(sheetname "Driver5")
 		(sheetfile "MosfetDriver.kicad_sch")
@@ -4800,7 +4798,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "*LED-0805*")
 		(path "/4280c9c2-efe3-4963-9fc9-06dce1a2b120/3da5316a-78db-4ecb-80ad-8e71b0c65d78")
 		(sheetname "Driver6")
 		(sheetfile "MosfetDriver.kicad_sch")
@@ -5071,7 +5068,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "*LED-0805*")
 		(path "/28cf6838-6b8a-46e6-b5e7-f06e42ba4feb/3da5316a-78db-4ecb-80ad-8e71b0c65d78")
 		(sheetname "Driver4")
 		(sheetfile "MosfetDriver.kicad_sch")
@@ -5926,7 +5922,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "*LED-0805*")
 		(path "/1f1093a9-0f81-45ed-bc24-b5c3f43458c7/3da5316a-78db-4ecb-80ad-8e71b0c65d78")
 		(sheetname "Driver2")
 		(sheetfile "MosfetDriver.kicad_sch")
@@ -9729,7 +9724,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11668,7 +11663,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "*LED-0805*")
 		(path "/49d16a40-5213-4dfc-8ad1-c9883923d9b4/3da5316a-78db-4ecb-80ad-8e71b0c65d78")
 		(sheetname "Driver1")
 		(sheetfile "MosfetDriver.kicad_sch")
@@ -12944,7 +12938,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13570,7 +13564,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "*LED-0805*")
 		(path "/464904bc-fa56-4e79-a59c-5ce30593ac12/3da5316a-78db-4ecb-80ad-8e71b0c65d78")
 		(sheetname "Driver3")
 		(sheetfile "MosfetDriver.kicad_sch")
@@ -14314,7 +14307,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14618,7 +14611,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14922,7 +14915,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)

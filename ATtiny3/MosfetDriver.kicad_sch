@@ -5,8 +5,7 @@
 	(uuid "28446ace-b1b8-437a-a1a3-6399f9f7b86a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "ULN2803-Mosfet-S2-Mini-rescue:SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_-OPL_Discrete"
-			(pin_numbers hide)
+		(symbol "ULN2803-Mosfet-S2-Mini-rescue:SMD-DIODE-SCHOTTKY-SOD-123"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -21,21 +20,22 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "OPL_Discrete_SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_"
-				(at -3.81 -3.81 0)
+			(property "Value" "SMD-DIODE-SCHOTTKY-SOD-123"
+				(at 2.032 -3.81 0)
 				(effects
 					(font
-						(size 1.143 1.143)
+						(size 0.762 0.762)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 1.778 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
@@ -57,30 +57,14 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "B5819W"
-				(at 0.762 3.81 0)
+			(property "LCSC" "C8598"
+				(at 1.778 -4.826 0)
 				(effects
 					(font
-						(size 0.508 0.508)
+						(size 0.762 0.762)
 					)
+					(justify left)
 					(hide yes)
-				)
-			)
-			(property "SKU" "304020034"
-				(at 0.762 3.81 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_fp_filters" "*SOD-123*"
@@ -92,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_-OPL_Discrete_1_0"
+			(symbol "SMD-DIODE-SCHOTTKY-SOD-123_1_0"
 				(polyline
 					(pts
 						(xy -1.27 -2.54) (xy -1.27 2.54)
@@ -142,7 +126,7 @@
 					)
 				)
 			)
-			(symbol "SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_-OPL_Discrete_1_1"
+			(symbol "SMD-DIODE-SCHOTTKY-SOD-123_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -181,15 +165,15 @@
 				)
 			)
 		)
-		(symbol "ULN2803-Mosfet-S2-Mini-rescue:SMD-LED-CLEAR-RED_0805_-OPL_Opto"
-			(pin_numbers hide)
+		(symbol "ULN2803-Mosfet-S2-Mini-rescue:SMD-LED-YELLOW-0805"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at -7.62 1.27 0)
+			(property "Reference" "Led"
+				(at 2.032 2.032 0)
 				(effects
 					(font
 						(size 1.143 1.143)
@@ -197,20 +181,21 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "OPL_Opto_SMD-LED-CLEAR-RED_0805_"
-				(at -5.08 -5.08 0)
+			(property "Value" "SMD-LED-YELLOW-0805"
+				(at 1.778 -5.08 0)
 				(effects
 					(font
-						(size 1.143 1.143)
+						(size 0.762 0.762)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+				(at 10.668 -3.048 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
 					)
 					(hide yes)
 				)
@@ -233,42 +218,17 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "17-215SURC_S530-A2_TR8"
-				(at 0.762 3.81 0)
+			(property "LCSC" "C2296"
+				(at 1.778 -6.858 0)
 				(effects
 					(font
-						(size 0.508 0.508)
+						(size 0.762 0.762)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "SKU" "304090046"
-				(at 0.762 3.81 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*LED-0805*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMD-LED-CLEAR-RED_0805_-OPL_Opto_1_0"
+			(symbol "SMD-LED-YELLOW-0805_1_0"
 				(polyline
 					(pts
 						(xy -1.27 -2.54) (xy -1.27 2.54)
@@ -414,7 +374,7 @@
 					)
 				)
 			)
-			(symbol "SMD-LED-CLEAR-RED_0805_-OPL_Opto_1_1"
+			(symbol "SMD-LED-YELLOW-0805_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -453,10 +413,9 @@
 				)
 			)
 		)
-		(symbol "ULN2803-Mosfet-S2-Mini-rescue:SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_-OPL_Discrete"
-			(pin_numbers hide)
+		(symbol "ULN2803-Mosfet-S2-Mini-rescue:SMD-MOSFET-N-CH-SOT-23"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -469,21 +428,22 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "OPL_Discrete_SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_"
-				(at 0 2.54 0)
+			(property "Value" "SMD-MOSFET-N-CH-SOT-23"
+				(at 1.27 -3.556 0)
 				(effects
 					(font
-						(size 1.143 1.143)
+						(size 0.762 0.762)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 1.524 -7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
@@ -496,39 +456,24 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
+				(at 1.524 -4.572 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "MPN" "CJ2302"
-				(at 0.762 3.81 0)
+			(property "LCSC" "C20917"
+				(at 1.524 -6.096 0)
 				(effects
 					(font
-						(size 0.508 0.508)
+						(size 0.762 0.762)
 					)
+					(justify left)
 					(hide yes)
-				)
-			)
-			(property "SKU" "305030015"
-				(at 0.762 3.81 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_fp_filters" "*SOT-23*"
@@ -540,7 +485,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_-OPL_Discrete_1_0"
+			(symbol "SMD-MOSFET-N-CH-SOT-23_1_0"
 				(polyline
 					(pts
 						(xy -2.54 2.54) (xy -2.54 -2.54)
@@ -986,7 +931,7 @@
 					)
 				)
 			)
-			(symbol "SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_-OPL_Discrete_1_1"
+			(symbol "SMD-MOSFET-N-CH-SOT-23_1_1"
 				(circle
 					(center 0 -1.905)
 					(radius 0.254)
@@ -1966,7 +1911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ULN2803-Mosfet-S2-Mini-rescue:SMD-LED-CLEAR-RED_0805_-OPL_Opto")
+		(lib_id "ULN2803-Mosfet-S2-Mini-rescue:SMD-LED-YELLOW-0805")
 		(at 60.96 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1994,10 +1939,10 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 60.96 48.26 0)
+			(at 57.912 58.928 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
@@ -2039,11 +1984,12 @@
 			)
 		)
 		(property "LCSC" "C2296"
-			(at 60.96 48.26 90)
+			(at 54.102 50.038 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -2087,7 +2033,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ULN2803-Mosfet-S2-Mini-rescue:SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_-OPL_Discrete")
+		(lib_id "ULN2803-Mosfet-S2-Mini-rescue:SMD-DIODE-SCHOTTKY-SOD-123")
 		(at 80.01 56.515 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2115,11 +2061,12 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 80.01 56.515 0)
+			(at 77.216 54.737 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2141,30 +2088,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "B5819W"
-			(at 76.2 55.753 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "304020034"
-			(at 76.2 55.753 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C8598"
-			(at 80.01 56.515 90)
+			(at 84.836 54.737 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2329,7 +2259,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ULN2803-Mosfet-S2-Mini-rescue:SMD-MOSFET-N-CH-20V-2.1A-CJ2302_SOT-23_-OPL_Discrete")
+		(lib_id "ULN2803-Mosfet-S2-Mini-rescue:SMD-MOSFET-N-CH-SOT-23")
 		(at 73.66 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2357,11 +2287,12 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 73.66 43.18 0)
+			(at 75.184 50.8 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2374,12 +2305,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 73.66 43.18 0)
+		(property "Description" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
+			(at 75.184 47.752 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2402,11 +2334,12 @@
 			)
 		)
 		(property "LCSC" "C20917"
-			(at 73.66 43.18 0)
+			(at 75.184 49.276 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
