@@ -44,7 +44,7 @@ Vista 3D
 ![Vista 3D](<ATtiny3/Immagini/Vista 3D.png>)
 
 Pdf dello schema
-!(ATtiny3/Immagini/Schema.pdf)
+![](ATtiny3/Immagini/Schema.pdf)
 
 ![La polarità dei diodi è sempre un mistero](ATtiny3/Immagini/Dubbi1.png)
 
