@@ -50,3 +50,8 @@ Vista 3D
 ![La polarità dei diodi è sempre un mistero](ATtiny3/Immagini/Dubbi1.png)
 
 ![Questo fa ritardare la produzione](ATtiny3/Immagini/Dubbi2.png)
+
+Ci siamo messi d'accordo.
+I diodi erano giusti ma a loro non piacevano.
+Quando arriveranno i circuiti montati sapremo chi aveva ragione.
+![Ci siamo](ATtiny3/Immagini/StatoAvanzamentoPCB.png)
