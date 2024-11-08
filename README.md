@@ -27,9 +27,7 @@ A queste spese bisogna aggiungere le 10 CPU comprate su Mouser a 9,39 che andran
 
 JLCPCB infatti non ha a catalogo queste CPU (ATtiny1624)
 
-
 ![Alt text](ATtiny3/Immagini/BOM.png)
-
 
 Fronte
 ![Fronte](ATtiny3/Immagini/fronte.png)
@@ -43,14 +41,14 @@ Schema
 Vista 3D
 ![Vista 3D](<ATtiny3/Immagini/Vista 3D.png>)
 
-
 Pdf dello schema **[PDF](ATtiny3/Immagini/Schema.pdf)**.
 
-![La polarità dei diodi è sempre un mistero](ATtiny3/Immagini/Dubbi1.png)
-
-![Questo fa ritardare la produzione](ATtiny3/Immagini/Dubbi2.png)
+![La polarità dei diodi è sempre un mistero](ATtiny3/Immagini/ComeLoVolevanoloro.png)
+![La polarità dei diodi è sempre un mistero](ATtiny3/Immagini/ComeLoVolevoIo.png)
 
 Ci siamo messi d'accordo.
 I diodi erano giusti ma a loro non piacevano.
+
 Quando arriveranno i circuiti montati sapremo chi aveva ragione.
+
 ![Ci siamo](ATtiny3/Immagini/StatoAvanzamentoPCB.png)
