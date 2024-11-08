@@ -43,7 +43,10 @@ Vista 3D
 
 Pdf dello schema **[PDF](ATtiny3/Immagini/Schema.pdf)**.
 
+Così lo volevano loro...
 ![La polarità dei diodi è sempre un mistero](ATtiny3/Immagini/ComeLoVolevanoloro.png)
+
+Così lo volevo io...
 ![La polarità dei diodi è sempre un mistero](ATtiny3/Immagini/ComeLoVolevoIo.png)
 
 Ci siamo messi d'accordo.
