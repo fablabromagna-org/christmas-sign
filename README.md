@@ -54,4 +54,9 @@ I diodi erano giusti ma a loro non piacevano.
 
 Quando arriveranno i circuiti montati sapremo chi aveva ragione.
 
+Nel frattempo però, un circuito confermato domenica 3 novembre 2024, va in produzione l'8 novembre, con 5 giorni di ritardo.
+
+Loro chiedono scusa ma la prossima volta lo faccio con PCBWay e vediamo se il maggior costo è giustificato.
+
+
 ![Ci siamo](ATtiny3/Immagini/StatoAvanzamentoPCB.png)
